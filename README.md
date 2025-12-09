@@ -48,4 +48,13 @@ Ask any question directly from the terminal:
 
 ```bash
 python cli.py "what is the higgs boson"
+```
+
+
+## ▶️ Run the FastAPI Server
+
+To start the WebMind API server, run the following command in your terminal:
+
+```bash
+uvicorn app:app --reload
 
