@@ -14,3 +14,7 @@ Extracts clean text
 Summarizes and answers using Qwen 2.5B / Llama 3 3B
 
 Returns a clean final answer with citations
+
+Install Libraries :
+```bash
+pip install fastapi uvicorn tavily-python newspaper3k beautifulsoup4 requests langchain qwen-vl-utils transformers accelerate
