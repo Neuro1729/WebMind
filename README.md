@@ -37,8 +37,8 @@ Before running the agent, you must set your Tavily API Key as an environment var
  ```
 * Windows (PowerShell):
   ```bash
-      setx TAVILY_API_KEY "your_api_key_here"
-   ```
+    setx TAVILY_API_KEY "your_api_key_here"
+  ```
 ## ▶️ Run the Agent From CLI
 Ask any question directly from the terminal:
 ```bash
