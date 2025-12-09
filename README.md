@@ -42,6 +42,8 @@ Before running the agent, you must set your Tavily API Key as an environment var
     ```bash
     setx TAVILY_API_KEY "your_api_key_here"
     ```
+    
+---
 ## ▶️ Run the Agent From CLI
 
 Ask any question directly from the terminal:
@@ -57,4 +59,19 @@ To start the WebMind API server, run the following command in your terminal:
 
 ```bash
 uvicorn app:app --reload
+```
+* --reload makes the server auto-reload on code changes
+* By default, it runs on: http://127.0.0.1:8000
 
+## 3️⃣ Accessing the API
+
+Browser
+```bash
+http://127.0.0.1:8000/ask?q=Who+is+Elon+Musk
+```
+Example JSON Response
+```bash
+{
+  "question": "Who is Elon Musk?",
+  "answer": "Elon Musk is the CEO of Tesla and SpaceX, and he founded PayPal [0][1]."
+}
