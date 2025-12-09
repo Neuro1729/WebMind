@@ -23,3 +23,21 @@ To get the project running on your local machine, install the required Python li
 
 ```bash
 pip install fastapi uvicorn tavily-python newspaper3k beautifulsoup4 requests langchain qwen-vl-utils transformers accelerate
+```
+## 🔑 Configuration: Set API Key
+
+Before running the agent, you must set your Tavily API Key as an environment variable.
+
+* macOS / Linux (bash, zsh):
+  * ```bash
+    export TAVILY_API_KEY="your_api_key_here"
+  ```
+* Windows (PowerShell):
+    *```bash
+      setx TAVILY_API_KEY "your_api_key_here"
+      ```
+## ▶️ Run the Agent From CLI
+Ask any question directly from the terminal:
+```bash
+python cli.py "what is the higgs boson"
+```
